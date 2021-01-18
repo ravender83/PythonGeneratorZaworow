@@ -1,0 +1,269 @@
+<SW.Blocks.CompileUnit ID="{ID}" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="SIRIUS ESTOP" />
+        <Address Area="Input" Type="Bool" BitOffset="5" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="SIRIUS CURTAIN" />
+        <Address Area="Input" Type="Bool" BitOffset="4" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="DBVALVES" />
+        <Component Name="{NAME}" />
+        <Component Name="in" />
+        <Component Name="move_hp" />
+        <Address Area="None" Type="Bool" BlockNumber="12" BitOffset="416" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="DBVALVES" />
+        <Component Name="{NAME}" />
+        <Component Name="in" />
+        <Component Name="move_wp" />
+        <Address Area="None" Type="Bool" BlockNumber="12" BitOffset="424" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="DBVALVES" />
+        <Component Name="{NAME}" />
+        <Component Name="in" />
+        <Component Name="move_idle" />
+        <Address Area="None" Type="Bool" BlockNumber="12" BitOffset="432" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="{SENSORHP}" />
+        <Address Area="Input" Type="Bool" BitOffset="92" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="{SENSORWP}" />
+        <Address Area="Input" Type="Bool" BitOffset="89" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="{VALVEHP}" />
+        <Address Area="Output" Type="Bool" BitOffset="86" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="{VALVEWP}" />
+        <Address Area="Output" Type="Bool" BitOffset="94" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+		{SYMBOLIDLE}
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="DBVALVES" />
+		<Component Name="{NAME}" />
+        <Component Name="out" />
+        <Component Name="in_hp" />
+        <Address Area="None" Type="Bool" BlockNumber="12" BitOffset="384" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="DBVALVES" />
+		<Component Name="{NAME}" />
+        <Component Name="out" />
+        <Component Name="in_wp" />
+        <Address Area="None" Type="Bool" BlockNumber="12" BitOffset="392" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="DBVALVES" />
+		<Component Name="{NAME}" />
+        <Component Name="out" />
+        <Component Name="in_idle" />
+        <Address Area="None" Type="Bool" BlockNumber="12" BitOffset="400" Informative="true" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="DBVALVES" />
+		<Component Name="{NAME}" />
+        <Component Name="out" />
+        <Component Name="status" />
+        <Address Area="None" Type="Int" BlockNumber="12" BitOffset="368" Informative="true" />
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="35" />
+    <Part Name="Contact" UId="36" />
+    <Call UId="37">
+      <CallInfo Name="3STATE_PISTON" BlockType="FB">
+        <IntegerAttribute Name="BlockNumber" Informative="true">1101</IntegerAttribute>
+        <DateAttribute Name="ParameterModifiedTS" Informative="true">2020-12-10T07:03:04</DateAttribute>
+        <Instance Scope="GlobalVariable" UId="38">
+          <Component Name="INST {NAME}" />
+          <Address Area="DB" Type="3STATE_PISTON" BlockNumber="{BLOCKNR}" BitOffset="0" Informative="true" />
+        </Instance>
+        <Parameter Name="in_safety" Section="Input" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="in_move_hp" Section="Input" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="in_move_wp" Section="Input" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="in_move_idle" Section="Input" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="in_sensor_hp" Section="Input" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="in_sensor_wp" Section="Input" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="out_in_hp" Section="Output" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="out_in_wp" Section="Output" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="out_idle" Section="Output" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="out_status" Section="Output" Type="Int">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="in_ez_hp" Section="InOut" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="in_ez_wp" Section="InOut" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+        <Parameter Name="in_ez_idle" Section="InOut" Type="Bool">
+          <StringAttribute Name="InterfaceFlags" Informative="true">S7_Visible</StringAttribute>
+        </Parameter>
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="39">
+      <Powerrail />
+      <NameCon UId="37" Name="en" />
+      <NameCon UId="35" Name="in" />
+    </Wire>
+    <Wire UId="40">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="operand" />
+    </Wire>
+    <Wire UId="41">
+      <NameCon UId="35" Name="out" />
+      <NameCon UId="36" Name="in" />
+    </Wire>
+    <Wire UId="42">
+      <IdentCon UId="22" />
+      <NameCon UId="36" Name="operand" />
+    </Wire>
+    <Wire UId="43">
+      <NameCon UId="36" Name="out" />
+      <NameCon UId="37" Name="in_safety" />
+    </Wire>
+    <Wire UId="44">
+      <IdentCon UId="23" />
+      <NameCon UId="37" Name="in_move_hp" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="24" />
+      <NameCon UId="37" Name="in_move_wp" />
+    </Wire>
+    <Wire UId="46">
+      <IdentCon UId="25" />
+      <NameCon UId="37" Name="in_move_idle" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="26" />
+      <NameCon UId="37" Name="in_sensor_hp" />
+    </Wire>
+    <Wire UId="48">
+      <IdentCon UId="27" />
+      <NameCon UId="37" Name="in_sensor_wp" />
+    </Wire>
+    <Wire UId="49">
+      <IdentCon UId="28" />
+      <NameCon UId="37" Name="in_ez_hp" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="29" />
+      <NameCon UId="37" Name="in_ez_wp" />
+    </Wire>
+    <Wire UId="51">
+      <IdentCon UId="30" />
+      <NameCon UId="37" Name="in_ez_idle" />
+    </Wire>
+    <Wire UId="52">
+      <NameCon UId="37" Name="out_in_hp" />
+      <IdentCon UId="31" />
+    </Wire>
+    <Wire UId="53">
+      <NameCon UId="37" Name="out_in_wp" />
+      <IdentCon UId="32" />
+    </Wire>
+    <Wire UId="54">
+      <NameCon UId="37" Name="out_idle" />
+      <IdentCon UId="33" />
+    </Wire>
+    <Wire UId="55">
+      <NameCon UId="37" Name="out_status" />
+      <IdentCon UId="34" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="{ID}" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="{ID}" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="{ID}" CompositionName="Items">
+                <AttributeList>
+                  <Culture>pl-PL</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="{ID}" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="{ID}" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>{NRNAME}</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="{ID}" CompositionName="Items">
+                <AttributeList>
+                  <Culture>pl-PL</Culture>
+                  <Text>{NRNAME}</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>

@@ -1,0 +1,40 @@
+<SW.Blocks.CompileUnit ID="{ID}" CompositionName="CompileUnits">
+	<AttributeList>
+		<NetworkSource />
+		<ProgrammingLanguage>LAD</ProgrammingLanguage>
+	</AttributeList>
+	<ObjectList>
+	  <MultilingualText ID="{ID}" CompositionName="Comment">
+		<ObjectList>
+		  <MultilingualTextItem ID="{ID}" CompositionName="Items">
+			<AttributeList>
+			  <Culture>en-US</Culture>
+			  <Text>{NAME}</Text>
+			</AttributeList>
+		  </MultilingualTextItem>
+		  <MultilingualTextItem ID="{ID}" CompositionName="Items">
+			<AttributeList>
+			  <Culture>pl-PL</Culture>
+			  <Text>{NAME}</Text>
+			</AttributeList>
+		  </MultilingualTextItem>
+		</ObjectList>
+	  </MultilingualText>
+	  <MultilingualText ID="{ID}" CompositionName="Title">
+		<ObjectList>
+		  <MultilingualTextItem ID="{ID}" CompositionName="Items">
+			<AttributeList>
+			  <Culture>en-US</Culture>
+			  <Text>------ {NRNAME} ------</Text>
+			</AttributeList>
+		  </MultilingualTextItem>
+		  <MultilingualTextItem ID="{ID}" CompositionName="Items">
+			<AttributeList>
+			  <Culture>pl-PL</Culture>
+			  <Text>------ {NRNAME} ------</Text>
+			</AttributeList>
+		  </MultilingualTextItem>
+		</ObjectList>
+	  </MultilingualText>
+	</ObjectList>
+</SW.Blocks.CompileUnit>

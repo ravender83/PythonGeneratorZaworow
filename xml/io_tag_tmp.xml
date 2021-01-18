@@ -1,0 +1,28 @@
+<SW.Tags.PlcTag ID="{NR1}" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>{ADDRESS}</LogicalAddress>
+  <Name>{NAME}</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="{NR2}" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="{NR3}" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>{COMMENT}</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="{NR4}" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>{COMMENT}</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>

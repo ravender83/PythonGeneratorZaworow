@@ -1,0 +1,5 @@
+	<Component Name="DBVALVES"/>
+	<Component Name="{ADDRESS}"/>
+	<Component Name="test"/>
+	<Component Name="IDLE_DUMMY"/>
+	<Address Informative="true" BitOffset="152" Type="Bool" Area="None" BlockNumber="1330"/>

@@ -1,0 +1,3862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1" />
+  <DocumentInfo>
+    <Created>2020-12-23T11:47:33.918068Z</Created>
+    <ExportSetting>WithDefaults, WithReadOnly</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1 Update 3</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1 Update 3</DisplayVersion>
+      </Product>
+      <Product>
+        <DisplayName>WinCC Advanced</DisplayName>
+        <DisplayVersion>V15.1 Update 3</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Tags.PlcTagTable ID="0">
+    <AttributeList>
+      <Name>io_import</Name>
+    </AttributeList>
+    <ObjectList>
+		<SW.Tags.PlcTag ID="1" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I60.0</LogicalAddress>
+  <Name>VSEN TBL TABLE LH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="2" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="3" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL TABLE LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="4" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL TABLE LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="5" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I61.0</LogicalAddress>
+  <Name>VSEN TBL TABLE LH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="6" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="7" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL TABLE LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="8" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL TABLE LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="9" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q60.6</LogicalAddress>
+  <Name>VALVE TBL TABLE LH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="10" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="11" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[1] VALVE TBL TABLE LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="12" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[1] VALVE TBL TABLE LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="13" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q61.6</LogicalAddress>
+  <Name>VALVE TBL TABLE LH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="14" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="15" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[1] VALVE TBL TABLE LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="16" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[1] VALVE TBL TABLE LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="17" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I60.1</LogicalAddress>
+  <Name>VSEN TBL TABLE RH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="18" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="19" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL TABLE RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="20" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL TABLE RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="21" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I61.1</LogicalAddress>
+  <Name>VSEN TBL TABLE RH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="22" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="23" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL TABLE RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="24" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL TABLE RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="25" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q60.7</LogicalAddress>
+  <Name>VALVE TBL TABLE RH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="26" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="27" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[2] VALVE TBL TABLE RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="28" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[2] VALVE TBL TABLE RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="29" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q61.7</LogicalAddress>
+  <Name>VALVE TBL TABLE RH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="30" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="31" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[2] VALVE TBL TABLE RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="32" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[2] VALVE TBL TABLE RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="33" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I20.3</LogicalAddress>
+  <Name>VSEN TBL SECTION1 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="34" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="35" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="36" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="37" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I21.3</LogicalAddress>
+  <Name>VSEN TBL SECTION1 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="38" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="39" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="40" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="41" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q40.0</LogicalAddress>
+  <Name>VALVE TBL SECTION1 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="42" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="43" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[3] VALVE TBL SECTION1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="44" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[3] VALVE TBL SECTION1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="45" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q41.0</LogicalAddress>
+  <Name>VALVE TBL SECTION1 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="46" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="47" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[3] VALVE TBL SECTION1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="48" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[3] VALVE TBL SECTION1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="49" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I30.3</LogicalAddress>
+  <Name>VSEN TBL SECTION2 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="50" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="51" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="52" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="53" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I31.3</LogicalAddress>
+  <Name>VSEN TBL SECTION2 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="54" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="55" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="56" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="57" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q40.1</LogicalAddress>
+  <Name>VALVE TBL SECTION2 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="58" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="59" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[4] VALVE TBL SECTION2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="60" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[4] VALVE TBL SECTION2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="61" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q41.1</LogicalAddress>
+  <Name>VALVE TBL SECTION2 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="62" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="63" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[4] VALVE TBL SECTION2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="64" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[4] VALVE TBL SECTION2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="65" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I20.4</LogicalAddress>
+  <Name>VSEN TBL SECTION4 LH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="66" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="67" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION4 LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="68" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION4 LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="69" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I21.4</LogicalAddress>
+  <Name>VSEN TBL SECTION4 LH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="70" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="71" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION4 LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="72" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION4 LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="73" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q40.2</LogicalAddress>
+  <Name>VALVE TBL SECTION4 LH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="74" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="75" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[5] VALVE TBL SECTION4 LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="76" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[5] VALVE TBL SECTION4 LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="77" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q41.2</LogicalAddress>
+  <Name>VALVE TBL SECTION4 LH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="78" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="79" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[5] VALVE TBL SECTION4 LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="80" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[5] VALVE TBL SECTION4 LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="81" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I30.4</LogicalAddress>
+  <Name>VSEN TBL SECTION4 RH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="82" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="83" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION4 RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="84" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION4 RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="85" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I31.4</LogicalAddress>
+  <Name>VSEN TBL SECTION4 RH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="86" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="87" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION4 RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="88" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION4 RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="89" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q40.3</LogicalAddress>
+  <Name>VALVE TBL SECTION4 RH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="90" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="91" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[6] VALVE TBL SECTION4 RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="92" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[6] VALVE TBL SECTION4 RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="93" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q41.3</LogicalAddress>
+  <Name>VALVE TBL SECTION4 RH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="94" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="95" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[6] VALVE TBL SECTION4 RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="96" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[6] VALVE TBL SECTION4 RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="97" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I20.5</LogicalAddress>
+  <Name>VSEN TBL SECTION5 LH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="98" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="99" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION5 LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="100" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION5 LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="101" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I21.5</LogicalAddress>
+  <Name>VSEN TBL SECTION5 LH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="102" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="103" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION5 LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="104" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION5 LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="105" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q40.4</LogicalAddress>
+  <Name>VALVE TBL SECTION5 LH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="106" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="107" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[7] VALVE TBL SECTION5 LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="108" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[7] VALVE TBL SECTION5 LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="109" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q41.4</LogicalAddress>
+  <Name>VALVE TBL SECTION5 LH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="110" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="111" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[7] VALVE TBL SECTION5 LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="112" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[7] VALVE TBL SECTION5 LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="113" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I30.5</LogicalAddress>
+  <Name>VSEN TBL SECTION5 RH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="114" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="115" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION5 RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="116" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION5 RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="117" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I31.5</LogicalAddress>
+  <Name>VSEN TBL SECTION5 RH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="118" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="119" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SECTION5 RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="120" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SECTION5 RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="121" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q40.5</LogicalAddress>
+  <Name>VALVE TBL SECTION5 RH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="122" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="123" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[8] VALVE TBL SECTION5 RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="124" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[8] VALVE TBL SECTION5 RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="125" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q41.5</LogicalAddress>
+  <Name>VALVE TBL SECTION5 RH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="126" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="127" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[8] VALVE TBL SECTION5 RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="128" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[8] VALVE TBL SECTION5 RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="129" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I20.6</LogicalAddress>
+  <Name>VSEN TBL POSITIONING LH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="130" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="131" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL POSITIONING LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="132" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL POSITIONING LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="133" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I21.6</LogicalAddress>
+  <Name>VSEN TBL POSITIONING LH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="134" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="135" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL POSITIONING LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="136" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL POSITIONING LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="137" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q40.6</LogicalAddress>
+  <Name>VALVE TBL POSITIONING LH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="138" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="139" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[9] VALVE TBL POSITIONING LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="140" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[9] VALVE TBL POSITIONING LH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="141" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q41.6</LogicalAddress>
+  <Name>VALVE TBL POSITIONING LH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="142" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="143" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[9] VALVE TBL POSITIONING LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="144" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[9] VALVE TBL POSITIONING LH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="145" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I30.6</LogicalAddress>
+  <Name>VSEN TBL POSITIONING RH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="146" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="147" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL POSITIONING RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="148" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL POSITIONING RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="149" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I31.5</LogicalAddress>
+  <Name>VSEN TBL POSITIONING RH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="150" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="151" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL POSITIONING RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="152" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL POSITIONING RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="153" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q40.7</LogicalAddress>
+  <Name>VALVE TBL POSITIONING RH HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="154" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="155" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[10] VALVE TBL POSITIONING RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="156" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[10] VALVE TBL POSITIONING RH HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="157" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q41.7</LogicalAddress>
+  <Name>VALVE TBL POSITIONING RH WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="158" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="159" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[10] VALVE TBL POSITIONING RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="160" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[10] VALVE TBL POSITIONING RH WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="161" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I20.1</LogicalAddress>
+  <Name>VSEN TBL PIN LH HP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="162" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="163" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL PIN LH HP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="164" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL PIN LH HP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="165" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I21.1</LogicalAddress>
+  <Name>VSEN TBL PIN LH WP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="166" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="167" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL PIN LH WP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="168" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL PIN LH WP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="169" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE TBL PIN LH HP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="170" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="171" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[11] VALVE TBL PIN LH HP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="172" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[11] VALVE TBL PIN LH HP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="173" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q50.5</LogicalAddress>
+  <Name>VALVE TBL PIN LH WP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="174" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="175" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[11] VALVE TBL PIN LH WP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="176" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[11] VALVE TBL PIN LH WP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="177" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I30.1</LogicalAddress>
+  <Name>VSEN TBL PIN RH HP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="178" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="179" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL PIN RH HP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="180" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL PIN RH HP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="181" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I31.1</LogicalAddress>
+  <Name>VSEN TBL PIN RH WP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="182" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="183" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL PIN RH WP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="184" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL PIN RH WP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="185" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE TBL PIN RH HP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="186" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="187" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[12] VALVE TBL PIN RH HP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="188" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[12] VALVE TBL PIN RH HP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="189" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q51.5</LogicalAddress>
+  <Name>VALVE TBL PIN RH WP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="190" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="191" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[12] VALVE TBL PIN RH WP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="192" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[12] VALVE TBL PIN RH WP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="193" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I20.2</LogicalAddress>
+  <Name>VSEN TBL SCREW GRIPPER HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="194" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="195" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SCREW GRIPPER HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="196" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SCREW GRIPPER HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="197" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I21.2</LogicalAddress>
+  <Name>VSEN TBL SCREW GRIPPER WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="198" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="199" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL SCREW GRIPPER WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="200" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL SCREW GRIPPER WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="201" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE TBL SCREW GRIPPER HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="202" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="203" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[13] VALVE TBL SCREW GRIPPER HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="204" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[13] VALVE TBL SCREW GRIPPER HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="205" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q50.4</LogicalAddress>
+  <Name>VALVE TBL SCREW GRIPPER WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="206" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="207" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[13] VALVE TBL SCREW GRIPPER WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="208" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[13] VALVE TBL SCREW GRIPPER WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="209" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I20.7</LogicalAddress>
+  <Name>VSEN TBL WRAP GRIPPER HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="210" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="211" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL WRAP GRIPPER HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="212" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL WRAP GRIPPER HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="213" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I21.7</LogicalAddress>
+  <Name>VSEN TBL WRAP GRIPPER WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="214" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="215" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN TBL WRAP GRIPPER WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="216" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN TBL WRAP GRIPPER WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="217" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE TBL WRAP GRIPPER HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="218" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="219" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[14] VALVE TBL WRAP GRIPPER HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="220" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[14] VALVE TBL WRAP GRIPPER HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="221" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q51.4</LogicalAddress>
+  <Name>VALVE TBL WRAP GRIPPER WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="222" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="223" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[14] VALVE TBL WRAP GRIPPER WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="224" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[14] VALVE TBL WRAP GRIPPER WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="225" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I120.2</LogicalAddress>
+  <Name>VSEN ST1 POSITIONING HP RIGHT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="226" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="227" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST1 POSITIONING HP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="228" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST1 POSITIONING HP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="229" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I121.2</LogicalAddress>
+  <Name>VSEN ST1 POSITIONING WP LEFT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="230" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="231" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST1 POSITIONING WP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="232" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST1 POSITIONING WP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="233" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q120.6</LogicalAddress>
+  <Name>VALVE ST1 POSITIONING HP RIGHT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="234" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="235" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[15] VALVE ST1 POSITIONING HP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="236" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[15] VALVE ST1 POSITIONING HP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="237" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q121.6</LogicalAddress>
+  <Name>VALVE ST1 POSITIONING WP LEFT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="238" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="239" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[15] VALVE ST1 POSITIONING WP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="240" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[15] VALVE ST1 POSITIONING WP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="241" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I120.3</LogicalAddress>
+  <Name>VSEN ST1 SWORD HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="242" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="243" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST1 SWORD HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="244" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST1 SWORD HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="245" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I121.3</LogicalAddress>
+  <Name>VSEN ST1 SWORD WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="246" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="247" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST1 SWORD WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="248" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST1 SWORD WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="249" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q120.7</LogicalAddress>
+  <Name>VALVE ST1 SWORD HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="250" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="251" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[16] VALVE ST1 SWORD HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="252" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[16] VALVE ST1 SWORD HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="253" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q121.7</LogicalAddress>
+  <Name>VALVE ST1 SWORD WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="254" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="255" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[16] VALVE ST1 SWORD WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="256" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[16] VALVE ST1 SWORD WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="257" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I120.0</LogicalAddress>
+  <Name>VSEN ST2 POSITIONING HP BACK</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="258" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="259" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST2 POSITIONING HP BACK</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="260" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST2 POSITIONING HP BACK</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="261" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I121.0</LogicalAddress>
+  <Name>VSEN ST2 POSITIONING WP FRONT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="262" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="263" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST2 POSITIONING WP FRONT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="264" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST2 POSITIONING WP FRONT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="265" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q120.4</LogicalAddress>
+  <Name>VALVE ST2 POSITIONING HP BACK</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="266" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="267" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[17] VALVE ST2 POSITIONING HP BACK</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="268" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[17] VALVE ST2 POSITIONING HP BACK</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="269" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q121.4</LogicalAddress>
+  <Name>VALVE ST2 POSITIONING WP FRONT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="270" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="271" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[17] VALVE ST2 POSITIONING WP FRONT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="272" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[17] VALVE ST2 POSITIONING WP FRONT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="273" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I120.1</LogicalAddress>
+  <Name>VSEN ST2 SWORD HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="274" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="275" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST2 SWORD HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="276" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST2 SWORD HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="277" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I121.1</LogicalAddress>
+  <Name>VSEN ST2 SWORD WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="278" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="279" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST2 SWORD WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="280" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST2 SWORD WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="281" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q120.5</LogicalAddress>
+  <Name>VALVE ST2 SWORD HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="282" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="283" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[18] VALVE ST2 SWORD HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="284" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[18] VALVE ST2 SWORD HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="285" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE ST2 SWORD WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="286" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="287" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[18] VALVE ST2 SWORD WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="288" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[18] VALVE ST2 SWORD WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="289" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I140.0</LogicalAddress>
+  <Name>VSEN ST3 POSITIONING HP BACK</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="290" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="291" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 POSITIONING HP BACK</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="292" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 POSITIONING HP BACK</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="293" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>1I41.0</LogicalAddress>
+  <Name>VSEN ST3 POSITIONING WP FRONT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="294" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="295" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 POSITIONING WP FRONT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="296" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 POSITIONING WP FRONT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="297" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q140.6</LogicalAddress>
+  <Name>VALVE ST3 POSITIONING HP BACK</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="298" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="299" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[19] VALVE ST3 POSITIONING HP BACK</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="300" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[19] VALVE ST3 POSITIONING HP BACK</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="301" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q141.6</LogicalAddress>
+  <Name>VALVE ST3 POSITIONING WP FRONT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="302" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="303" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[19] VALVE ST3 POSITIONING WP FRONT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="304" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[19] VALVE ST3 POSITIONING WP FRONT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="305" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I1000.0</LogicalAddress>
+  <Name>VSEN ST3 SWORD A SQUEEZING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="306" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="307" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A SQUEEZING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="308" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A SQUEEZING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="309" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I130.1</LogicalAddress>
+  <Name>VSEN ST3 SWORD A SQUEEZING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="310" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="311" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A SQUEEZING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="312" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A SQUEEZING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="313" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE ST3 SWORD A SQUEEZING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="314" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="315" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[20] VALVE ST3 SWORD A SQUEEZING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="316" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[20] VALVE ST3 SWORD A SQUEEZING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="317" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q131.4</LogicalAddress>
+  <Name>VALVE ST3 SWORD A SQUEEZING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="318" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="319" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[20] VALVE ST3 SWORD A SQUEEZING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="320" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[20] VALVE ST3 SWORD A SQUEEZING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="321" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I1000.0</LogicalAddress>
+  <Name>VSEN ST3 SWORD A SPREADING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="322" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="323" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A SPREADING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="324" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A SPREADING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="325" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I130.0</LogicalAddress>
+  <Name>VSEN ST3 SWORD A SPREADING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="326" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="327" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A SPREADING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="328" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A SPREADING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="329" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE ST3 SWORD A SPREADING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="330" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="331" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[21] VALVE ST3 SWORD A SPREADING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="332" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[21] VALVE ST3 SWORD A SPREADING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="333" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q130.5</LogicalAddress>
+  <Name>VALVE ST3 SWORD A SPREADING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="334" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="335" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[21] VALVE ST3 SWORD A SPREADING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="336" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[21] VALVE ST3 SWORD A SPREADING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="337" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I1000.0</LogicalAddress>
+  <Name>VSEN ST3 SWORD A OPENING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="338" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="339" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A OPENING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="340" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A OPENING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="341" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I131.0</LogicalAddress>
+  <Name>VSEN ST3 SWORD A OPENING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="342" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="343" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A OPENING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="344" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD A OPENING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="345" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE ST3 SWORD A OPENING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="346" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="347" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[22] VALVE ST3 SWORD A OPENING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="348" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[22] VALVE ST3 SWORD A OPENING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="349" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q130.4</LogicalAddress>
+  <Name>VALVE ST3 SWORD A OPENING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="350" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="351" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[22] VALVE ST3 SWORD A OPENING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="352" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[22] VALVE ST3 SWORD A OPENING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="353" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I1000.0</LogicalAddress>
+  <Name>VSEN ST3 SWORD B SQUEEZING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="354" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="355" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B SQUEEZING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="356" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B SQUEEZING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="357" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I131.2</LogicalAddress>
+  <Name>VSEN ST3 SWORD B SQUEEZING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="358" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="359" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B SQUEEZING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="360" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B SQUEEZING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="361" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE ST3 SWORD B SQUEEZING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="362" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="363" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[23] VALVE ST3 SWORD B SQUEEZING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="364" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[23] VALVE ST3 SWORD B SQUEEZING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="365" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q131.6</LogicalAddress>
+  <Name>VALVE ST3 SWORD B SQUEEZING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="366" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="367" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[23] VALVE ST3 SWORD B SQUEEZING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="368" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[23] VALVE ST3 SWORD B SQUEEZING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="369" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I1000.0</LogicalAddress>
+  <Name>VSEN ST3 SWORD B SPREADING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="370" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="371" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B SPREADING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="372" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B SPREADING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="373" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I131.1</LogicalAddress>
+  <Name>VSEN ST3 SWORD B SPREADING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="374" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="375" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B SPREADING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="376" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B SPREADING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="377" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE ST3 SWORD B SPREADING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="378" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="379" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[24] VALVE ST3 SWORD B SPREADING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="380" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[24] VALVE ST3 SWORD B SPREADING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="381" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q130.7</LogicalAddress>
+  <Name>VALVE ST3 SWORD B SPREADING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="382" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="383" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[24] VALVE ST3 SWORD B SPREADING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="384" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[24] VALVE ST3 SWORD B SPREADING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="385" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I1000.0</LogicalAddress>
+  <Name>VSEN ST3 SWORD B OPENING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="386" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="387" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B OPENING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="388" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B OPENING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="389" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I130.2</LogicalAddress>
+  <Name>VSEN ST3 SWORD B OPENING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="390" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="391" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B OPENING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="392" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST3 SWORD B OPENING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="393" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE ST3 SWORD B OPENING HP OPEN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="394" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="395" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[25] VALVE ST3 SWORD B OPENING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="396" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[25] VALVE ST3 SWORD B OPENING HP OPEN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="397" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q130.6</LogicalAddress>
+  <Name>VALVE ST3 SWORD B OPENING WP CLOSE</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="398" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="399" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[25] VALVE ST3 SWORD B OPENING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="400" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[25] VALVE ST3 SWORD B OPENING WP CLOSE</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="401" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I150.4</LogicalAddress>
+  <Name>VSEN ST6 CONNECTOR1 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="402" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="403" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 CONNECTOR1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="404" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 CONNECTOR1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="405" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I151.4</LogicalAddress>
+  <Name>VSEN ST6 CONNECTOR1 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="406" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="407" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 CONNECTOR1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="408" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 CONNECTOR1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="409" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q160.4</LogicalAddress>
+  <Name>VALVE ST6 CONNECTOR1 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="410" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="411" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[26] VALVE ST6 CONNECTOR1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="412" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[26] VALVE ST6 CONNECTOR1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="413" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q161.4</LogicalAddress>
+  <Name>VALVE ST6 CONNECTOR1 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="414" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="415" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[26] VALVE ST6 CONNECTOR1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="416" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[26] VALVE ST6 CONNECTOR1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="417" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I150.5</LogicalAddress>
+  <Name>VSEN ST6 CONNECTOR2 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="418" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="419" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 CONNECTOR2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="420" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 CONNECTOR2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="421" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I151.5</LogicalAddress>
+  <Name>VSEN ST6 CONNECTOR2 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="422" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="423" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 CONNECTOR2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="424" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 CONNECTOR2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="425" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q160.5</LogicalAddress>
+  <Name>VALVE ST6 CONNECTOR2 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="426" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="427" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[27] VALVE ST6 CONNECTOR2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="428" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[27] VALVE ST6 CONNECTOR2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="429" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q161.5</LogicalAddress>
+  <Name>VALVE ST6 CONNECTOR2 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="430" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="431" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[27] VALVE ST6 CONNECTOR2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="432" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[27] VALVE ST6 CONNECTOR2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="433" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I150.0</LogicalAddress>
+  <Name>VSEN ST6 HOLDFAST LH1 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="434" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="435" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST LH1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="436" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST LH1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="437" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I151.0</LogicalAddress>
+  <Name>VSEN ST6 HOLDFAST LH1 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="438" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="439" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST LH1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="440" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST LH1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="441" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q160.0</LogicalAddress>
+  <Name>VALVE ST6 HOLDFAST LH1 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="442" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="443" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[28] VALVE ST6 HOLDFAST LH1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="444" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[28] VALVE ST6 HOLDFAST LH1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="445" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q161.0</LogicalAddress>
+  <Name>VALVE ST6 HOLDFAST LH1 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="446" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="447" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[28] VALVE ST6 HOLDFAST LH1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="448" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[28] VALVE ST6 HOLDFAST LH1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="449" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I150.1</LogicalAddress>
+  <Name>VSEN ST6 HOLDFAST LH2 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="450" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="451" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST LH2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="452" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST LH2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="453" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I151.1</LogicalAddress>
+  <Name>VSEN ST6 HOLDFAST LH2 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="454" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="455" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST LH2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="456" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST LH2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="457" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q160.1</LogicalAddress>
+  <Name>VALVE ST6 HOLDFAST LH2 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="458" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="459" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[29] VALVE ST6 HOLDFAST LH2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="460" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[29] VALVE ST6 HOLDFAST LH2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="461" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q161.1</LogicalAddress>
+  <Name>VALVE ST6 HOLDFAST LH2 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="462" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="463" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[29] VALVE ST6 HOLDFAST LH2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="464" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[29] VALVE ST6 HOLDFAST LH2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="465" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I150.2</LogicalAddress>
+  <Name>VSEN ST6 HOLDFAST RH1 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="466" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="467" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST RH1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="468" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST RH1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="469" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I151.2</LogicalAddress>
+  <Name>VSEN ST6 HOLDFAST RH1 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="470" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="471" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST RH1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="472" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST RH1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="473" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q160.2</LogicalAddress>
+  <Name>VALVE ST6 HOLDFAST RH1 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="474" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="475" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[30] VALVE ST6 HOLDFAST RH1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="476" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[30] VALVE ST6 HOLDFAST RH1 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="477" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q161.2</LogicalAddress>
+  <Name>VALVE ST6 HOLDFAST RH1 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="478" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="479" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[30] VALVE ST6 HOLDFAST RH1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="480" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[30] VALVE ST6 HOLDFAST RH1 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="481" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I150.3</LogicalAddress>
+  <Name>VSEN ST6 HOLDFAST RH2 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="482" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="483" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST RH2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="484" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST RH2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="485" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I151.3</LogicalAddress>
+  <Name>VSEN ST6 HOLDFAST RH2 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="486" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="487" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST RH2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="488" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 HOLDFAST RH2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="489" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q160.3</LogicalAddress>
+  <Name>VALVE ST6 HOLDFAST RH2 HP UP</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="490" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="491" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[31] VALVE ST6 HOLDFAST RH2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="492" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[31] VALVE ST6 HOLDFAST RH2 HP UP</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="493" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q161.3</LogicalAddress>
+  <Name>VALVE ST6 HOLDFAST RH2 WP DOWN</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="494" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="495" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[31] VALVE ST6 HOLDFAST RH2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="496" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[31] VALVE ST6 HOLDFAST RH2 WP DOWN</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="497" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I1000.0</LogicalAddress>
+  <Name>VSEN ST6 ROTATION LH HP LEFT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="498" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="499" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 ROTATION LH HP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="500" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 ROTATION LH HP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="501" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I150.6</LogicalAddress>
+  <Name>VSEN ST6 ROTATION LH WP RIGHT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="502" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="503" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 ROTATION LH WP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="504" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 ROTATION LH WP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="505" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE ST6 ROTATION LH HP LEFT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="506" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="507" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[32] VALVE ST6 ROTATION LH HP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="508" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[32] VALVE ST6 ROTATION LH HP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="509" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q160.6</LogicalAddress>
+  <Name>VALVE ST6 ROTATION LH WP RIGHT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="510" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="511" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[32] VALVE ST6 ROTATION LH WP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="512" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[32] VALVE ST6 ROTATION LH WP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="513" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I1000.0</LogicalAddress>
+  <Name>VSEN ST6 ROTATION RH HP RIGHT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="514" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="515" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 ROTATION RH HP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="516" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 ROTATION RH HP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="517" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>I151.6</LogicalAddress>
+  <Name>VSEN ST6 ROTATION RH WP LEFT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="518" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="519" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>#nc - VSEN ST6 ROTATION RH WP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="520" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>#nc - VSEN ST6 ROTATION RH WP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="521" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q1000.0</LogicalAddress>
+  <Name>VALVE ST6 ROTATION RH HP RIGHT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="522" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="523" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[33] VALVE ST6 ROTATION RH HP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="524" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[33] VALVE ST6 ROTATION RH HP RIGHT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+<SW.Tags.PlcTag ID="525" CompositionName="Tags">
+<AttributeList>
+  <DataTypeName>Bool</DataTypeName>
+  <ExternalAccessible>true</ExternalAccessible>
+  <ExternalVisible>true</ExternalVisible>
+  <ExternalWritable>true</ExternalWritable>
+  <LogicalAddress>Q161.6</LogicalAddress>
+  <Name>VALVE ST6 ROTATION RH WP LEFT</Name>
+</AttributeList>
+<ObjectList>
+  <MultilingualText ID="526" CompositionName="Comment">
+	<ObjectList>
+	  <MultilingualTextItem ID="527" CompositionName="Items">
+		<AttributeList>
+		  <Culture>en-US</Culture>
+		  <Text>[33] VALVE ST6 ROTATION RH WP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	  <MultilingualTextItem ID="528" CompositionName="Items">
+		<AttributeList>
+		  <Culture>pl-PL</Culture>
+		  <Text>[33] VALVE ST6 ROTATION RH WP LEFT</Text>
+		</AttributeList>
+	  </MultilingualTextItem>
+	</ObjectList>
+  </MultilingualText>
+</ObjectList>
+</SW.Tags.PlcTag>
+
+
+    </ObjectList>
+  </SW.Tags.PlcTagTable>
+</Document>

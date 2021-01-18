@@ -1,0 +1,286 @@
+﻿ <SW.Blocks.InstanceDB ID="{ID}">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <CodeModifiedDate ReadOnly="true">2020-12-28T13:20:36.0178679Z</CodeModifiedDate>
+      <CompileDate ReadOnly="true">2020-12-28T13:40:46.9815401Z</CompileDate>
+      <CreationDate ReadOnly="true">2020-12-28T13:20:35.8743592Z</CreationDate>
+      <DBAccessibleFromOPCUA>true</DBAccessibleFromOPCUA>
+      <DownloadWithoutReinit ReadOnly="true">false</DownloadWithoutReinit>
+      <HeaderAuthor/>
+      <HeaderFamily/>
+      <HeaderName/>
+      <HeaderVersion>0.1</HeaderVersion>
+      <InstanceOfName>3STATE_PISTON</InstanceOfName>
+      <InstanceOfNumber ReadOnly="true">1101</InstanceOfNumber>
+      <InstanceOfType>FB</InstanceOfType>
+      <Interface>
+        <Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+          <Section Name="Input">
+            <Member Accessibility="Public" Datatype="Bool" Name="in_safety" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Bool" Name="in_move_hp" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Bool" Name="in_move_wp" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Bool" Name="in_move_idle" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Bool" Name="in_sensor_hp" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Bool" Name="in_sensor_wp" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+          </Section>
+          <Section Name="Output">
+            <Member Accessibility="Public" Datatype="Bool" Name="out_in_hp" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Bool" Name="out_in_wp" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Bool" Name="out_idle" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Int" Name="out_status" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+          </Section>
+          <Section Name="InOut">
+            <Member Accessibility="Public" Datatype="Bool" Name="in_ez_hp" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Bool" Name="in_ez_wp" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Bool" Name="in_ez_idle" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+              </AttributeList>
+            </Member>
+          </Section>
+          <Section Name="Static">
+            <Member Accessibility="Public" Datatype="Time" Name="time" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+              </AttributeList>
+            </Member>
+            <Member Accessibility="Public" Datatype="Struct" Name="T" Remanence="NonRetain">
+              <AttributeList>
+                <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+                <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+              </AttributeList>
+              <Member Datatype="IEC_TIMER" Name="tt1" Version="1.0">
+                <AttributeList>
+                  <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                  <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute>
+                </AttributeList>
+                <Sections>
+                  <Section Name="None">
+                    <Member Datatype="Time" Name="PT"/>
+                    <Member Datatype="Time" Name="ET"/>
+                    <Member Datatype="Bool" Name="IN"/>
+                    <Member Datatype="Bool" Name="Q"/>
+                  </Section>
+                </Sections>
+              </Member>
+              <Member Datatype="IEC_TIMER" Name="tt2_hp" Version="1.0">
+                <AttributeList>
+                  <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                  <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+                </AttributeList>
+                <Sections>
+                  <Section Name="None">
+                    <Member Datatype="Time" Name="PT"/>
+                    <Member Datatype="Time" Name="ET"/>
+                    <Member Datatype="Bool" Name="IN"/>
+                    <Member Datatype="Bool" Name="Q"/>
+                  </Section>
+                </Sections>
+              </Member>
+              <Member Datatype="IEC_TIMER" Name="tt3_wp" Version="1.0">
+                <AttributeList>
+                  <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Informative="true" Name="UserVisible" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Informative="true" Name="UserReadOnly" SystemDefined="true">false</BooleanAttribute>
+                  <BooleanAttribute Informative="true" Name="UserDeletable" SystemDefined="true">true</BooleanAttribute>
+                  <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+                </AttributeList>
+                <Sections>
+                  <Section Name="None">
+                    <Member Datatype="Time" Name="PT"/>
+                    <Member Datatype="Time" Name="ET"/>
+                    <Member Datatype="Bool" Name="IN"/>
+                    <Member Datatype="Bool" Name="Q"/>
+                  </Section>
+                </Sections>
+              </Member>
+            </Member>
+          </Section>
+        </Sections>
+      </Interface>
+      <InterfaceModifiedDate ReadOnly="true">2020-12-10T07:03:04.0661374Z</InterfaceModifiedDate>
+      <IsConsistent ReadOnly="true">true</IsConsistent>
+      <IsKnowHowProtected ReadOnly="true">false</IsKnowHowProtected>
+      <IsRetainMemResEnabled ReadOnly="true">false</IsRetainMemResEnabled>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <MemoryReserve ReadOnly="true">100</MemoryReserve>
+      <ModifiedDate ReadOnly="true">2020-12-28T13:20:36.0178679Z</ModifiedDate>
+      <Name>INST {NAME}</Name>
+      <Number>{BLOCKNR}</Number>
+      <ParameterModified ReadOnly="true">2020-12-10T07:03:04.0661374Z</ParameterModified>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+      <StructureModified ReadOnly="true">2020-12-10T07:03:04.0661374Z</StructureModified>
+      <UDABlockProperties ReadOnly="true"/>
+      <UDAEnableTagReadback ReadOnly="true">false</UDAEnableTagReadback>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText CompositionName="Comment" ID="{ID}">
+        <ObjectList>
+          <MultilingualTextItem CompositionName="Items" ID="{ID}">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text/>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem CompositionName="Items" ID="{ID}">
+            <AttributeList>
+              <Culture>pl-PL</Culture>
+              <Text/>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText CompositionName="Title" ID="{ID}">
+        <ObjectList>
+          <MultilingualTextItem CompositionName="Items" ID="{ID}">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text/>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem CompositionName="Items" ID="{ID}">
+            <AttributeList>
+              <Culture>pl-PL</Culture>
+              <Text/>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>

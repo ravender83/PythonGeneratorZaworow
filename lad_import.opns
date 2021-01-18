@@ -1,0 +1,29 @@
+# Selecting a PLC
+
+<project> = "X:\MX33\MX33.ap15_1"
+<plc> = "PLC"
+
+# Gdy TIA nie jest uruchomiony
+#open Portal
+#open Project <project>
+
+# Jak TIA jest ju¿ uruchomiony to robimy tylko connect
+connect Portal <project>
+select Plc <plc>
+
+### Utworzenie grupy IMPORT
+create ProgramBlockFolder /IMPORT/
+import ProgramBlocks "x:\dd\db_valves.xml" /IMPORT/
+import PlcTagTables "x:\dd\io_tags.xml"
+import ProgramBlocks "x:\dd\func_outputs.xml" /IMPORT/
+import ProgramBlocks "x:\dd\func_instances.xml" /IMPORT/
+
+# export tabeli symboli
+#select PlcTagTables "io_import"
+#export PlcTagTables "x:\dd" 
+
+# export funkcji
+#select ProgramBlocks "func_outputs"
+#export ProgramBlocks "x:\dd" 
+
+disconnect Portal

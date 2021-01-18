@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V15.1"/>
+  <DocumentInfo>
+    <Created>2020-12-23T12:53:55.1483535Z</Created>
+    <ExportSetting>WithDefaults, WithReadOnly</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V15.1 Update 3</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V15.1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V15.1 Update 3</DisplayVersion>
+      </Product>
+      <Product>
+        <DisplayName>WinCC Advanced</DisplayName>
+        <DisplayVersion>V15.1 Update 3</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.FC ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <CodeModifiedDate ReadOnly="true">2020-12-23T12:53:21.0067533Z</CodeModifiedDate>
+      <CompileDate ReadOnly="true">2020-12-23T12:53:51.673862Z</CompileDate>
+      <CreationDate ReadOnly="true">2020-12-23T07:31:02.6354064Z</CreationDate>
+      <HandleErrorsWithinBlock ReadOnly="true">false</HandleErrorsWithinBlock>
+      <HeaderAuthor/>
+      <HeaderFamily/>
+      <HeaderName/>
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface>
+        <Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v3">
+          <Section Name="Input"/>
+          <Section Name="Output"/>
+          <Section Name="InOut"/>
+          <Section Name="Temp"/>
+          <Section Name="Constant"/>
+          <Section Name="Return">
+            <Member Accessibility="Public" Datatype="Void" Name="Ret_Val"/>
+          </Section>
+        </Sections>
+      </Interface>
+      <InterfaceModifiedDate ReadOnly="true">2020-12-23T12:48:47.2749857Z</InterfaceModifiedDate>
+      <IsConsistent ReadOnly="true">true</IsConsistent>
+      <IsIECCheckEnabled>false</IsIECCheckEnabled>
+      <IsKnowHowProtected ReadOnly="true">false</IsKnowHowProtected>
+      <IsWriteProtected ReadOnly="true">false</IsWriteProtected>
+      <LibraryConformanceStatus ReadOnly="true">The object is library-conformant.</LibraryConformanceStatus>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <ModifiedDate ReadOnly="true">2020-12-23T12:53:38.1882563Z</ModifiedDate>
+      <Name>func_outputs</Name>
+      <Number>1331</Number>
+      <ParameterModified ReadOnly="true">2020-12-23T07:31:02.6354064Z</ParameterModified>
+      <PLCSimAdvancedSupport ReadOnly="true">false</PLCSimAdvancedSupport>
+      <ProgrammingLanguage>LAD</ProgrammingLanguage>
+      <SetENOAutomatically>False</SetENOAutomatically>
+      <StructureModified ReadOnly="true">2020-12-23T07:31:02.6354064Z</StructureModified>
+      <UDABlockProperties/>
+      <UDAEnableTagReadback>false</UDAEnableTagReadback>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText CompositionName="Comment" ID="1">
+        <ObjectList>
+          <MultilingualTextItem CompositionName="Items" ID="2">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text/>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem CompositionName="Items" ID="3">
+            <AttributeList>
+              <Culture>pl-PL</Culture>
+              <Text/>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+ 
+      {COMMAND}
+      
+      <SW.Blocks.CompileUnit CompositionName="CompileUnits" ID="{ID}">
+        <AttributeList>
+          <NetworkSource/>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage></AttributeList>
+        <ObjectList>
+          <MultilingualText CompositionName="Comment" ID="{ID}">
+            <ObjectList>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text/>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>pl-PL</Culture>
+                  <Text/>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText CompositionName="Title" ID="{ID}">
+            <ObjectList>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>======= VALVES =======</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>pl-PL</Culture>
+                  <Text>======= VALVES =======</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+
+      {VALVES}
+      
+      <SW.Blocks.CompileUnit CompositionName="CompileUnits" ID="{ID}">
+        <AttributeList>
+          <NetworkSource/>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage></AttributeList>
+        <ObjectList>
+          <MultilingualText CompositionName="Comment" ID="{ID}">
+            <ObjectList>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text/>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>pl-PL</Culture>
+                  <Text/>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText CompositionName="Title" ID="{ID}">
+            <ObjectList>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>======= TESTS =======</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>pl-PL</Culture>
+                  <Text>======= TESTS =======</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+
+      {TESTS} 
+      
+      <SW.Blocks.CompileUnit CompositionName="CompileUnits" ID="{ID}">
+        <AttributeList>
+          <NetworkSource>
+            <FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v3">
+              <Parts>
+                <Access Scope="LiteralConstant" UId="21">
+                  <Constant>
+                    <ConstantType>Int</ConstantType>
+                    <ConstantValue>255</ConstantValue>
+                    <StringAttribute Informative="true" Name="Format">Dec_signed</StringAttribute></Constant>
+                </Access>
+                <Access Scope="GlobalVariable" UId="22">
+                  <Symbol>
+                    <Component Name="FLAGS"/>
+                    <Component Name="TEST"/>
+                    <Component Name="LAMPS"/>
+                    <Address Area="None" BitOffset="312" BlockNumber="12" Informative="true" Type="Ttest"/>
+                  </Symbol>
+                </Access>
+                <Call UId="23">
+                  <CallInfo BlockType="FC" Name="TEST">
+                    <IntegerAttribute Informative="true" Name="BlockNumber">1102</IntegerAttribute>
+                    <DateAttribute Informative="true" Name="ParameterModifiedTS">2020-09-28T10:24:07</DateAttribute>
+                    <Parameter Name="in_nr" Section="Input" Type="Int">
+                      <StringAttribute Informative="true" Name="InterfaceFlags">S7_Visible</StringAttribute>
+                    </Parameter>
+                    <Parameter Name="out" Section="InOut" Type="Ttest">
+                      <StringAttribute Informative="true" Name="InterfaceFlags">S7_Visible</StringAttribute>
+                    </Parameter>
+                  </CallInfo>
+                </Call>
+              </Parts>
+              <Wires>
+                <Wire UId="24">
+                  <Powerrail/>
+                  <NameCon Name="en" UId="23"/>
+                </Wire>
+                <Wire UId="25">
+                  <IdentCon UId="21"/>
+                  <NameCon Name="in_nr" UId="23"/>
+                </Wire>
+                <Wire UId="26">
+                  <IdentCon UId="22"/>
+                  <NameCon Name="out" UId="23"/>
+                </Wire>
+              </Wires>
+            </FlgNet>
+          </NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText CompositionName="Comment" ID="{ID}">
+            <ObjectList>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text/>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>pl-PL</Culture>
+                  <Text/>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText CompositionName="Title" ID="{ID}">
+            <ObjectList>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>TEST - LAMPS</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem CompositionName="Items" ID="{ID}">
+                <AttributeList>
+                  <Culture>pl-PL</Culture>
+                  <Text>TEST - LAMPS</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+
+      <MultilingualText CompositionName="Title" ID="{ID}">
+        <ObjectList>
+          <MultilingualTextItem CompositionName="Items" ID="{ID}">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text>OUTPUTS</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem CompositionName="Items" ID="{ID}">
+            <AttributeList>
+              <Culture>pl-PL</Culture>
+              <Text>OUTPUTS</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FC>
+</Document>
